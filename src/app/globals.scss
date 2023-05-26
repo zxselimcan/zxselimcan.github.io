@@ -6,3 +6,19 @@
 html {
   scroll-behavior: smooth;
 }
+
+.background-image {
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('/images/background.webp');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-color: #102020;
+}

@@ -33,7 +33,6 @@ const Navbar = () => {
 
                 <div
                     className={"hidden md:flex w-full justify-between flex-row p-10 md:p-24 min-h-screen md:min-h-0 bg-gray-950 md:bg-transparent"}
-                    style={{ height: "-webkit-fill-available" }}
                     ref={menuRef}
                 >
                     <div className={`flex flex-col md:flex-row pt-10 md:pt-0 gap-4 justify-center items-center `}>

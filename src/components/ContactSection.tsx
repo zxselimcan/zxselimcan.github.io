@@ -5,7 +5,7 @@ const ContactSection = () => {
     return (
         <div
             id="contact"
-            className="flex flex-col p-10 md:p-24 min-h-screen bg-gray-950 bg-opacity-90"
+            className="flex flex-col p-10 md:p-24 min-h-[90vh] bg-gray-950 bg-opacity-90"
             style={{height: "-webkit-fill-available"}}
 
         >

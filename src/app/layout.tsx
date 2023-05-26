@@ -17,16 +17,9 @@ export default function RootLayout({
     <html lang="en" className='dark'>
       <body className={inter.className + " bg-gray-950"}>
         <div
-          style={{
-            backgroundImage: `url('/images/background.webp')`,
-            backgroundRepeat: 'no-repeat',
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundAttachment: 'fixed',
-            backgroundBlendMode: 'overlay',
-            backgroundColor: '#102020',
-          }}
-          className="text-neutral-100">
+          className="background-image">
+        </div>
+        <div className='text-neutral-100'>
           {children}
         </div>
       </body>
