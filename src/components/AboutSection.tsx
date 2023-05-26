@@ -4,7 +4,10 @@ import Image from "next/image"
 
 const AboutSection = () => {
     return (
-        <div id="about" className="w-full min-h-screen bg-gray-950 bg-opacity-90 text-neutral-100 p-10 md:p-24 flex flex-wrap flex-col md:flex-row  items-center justify-between items-center h-full">
+        <div id="about"
+            className="w-full min-h-screen bg-gray-950 bg-opacity-90 text-neutral-100 p-10 md:p-24 flex flex-wrap flex-col md:flex-row  items-center justify-between items-center h-full"
+            style={{height: "-webkit-fill-available"}}
+        >
 
             <div className="w-full md:w-[50%]">
                 <h3 className="text-4xl md:text-4xl font-bold text-neutral-100">About Me</h3>

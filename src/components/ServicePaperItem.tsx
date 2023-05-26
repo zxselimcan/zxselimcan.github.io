@@ -6,7 +6,10 @@ const ServicePaperItem = ({ title, description, stack }: {
     stack?: string[]
 }) => {
     return (
-        <div className="p-4 bg-gray-800 bg-opacity-60 rounded-lg min-h-[120px] h-full flex flex-col justify-between ">
+        <div
+            className="p-4 bg-gray-800 bg-opacity-60 rounded-lg min-h-[120px] h-full flex flex-col justify-between "
+            style={{ height: "-webkit-fill-available" }}
+        >
             <div>
                 <h4 className="text-2xl font-bold text-neutral-200">{title}</h4>
                 <p className="text-neutral-300" >{description}</p>

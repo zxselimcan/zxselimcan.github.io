@@ -6,7 +6,7 @@ import ServicesSection from '@/components/ServicesSection'
 
 const Page = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" style={{height: "-webkit-fill-available"}} >
       <Navbar />
       <HeroSection />
       <AboutSection />
