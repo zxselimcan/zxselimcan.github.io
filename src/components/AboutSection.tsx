@@ -20,7 +20,7 @@ const AboutSection = () => {
             >
                 <Image
                     alt="Selim Can Özdemir"
-                    src="/selim-can-ozdemir.png"
+                    src="/selim-can-ozdemir.webp"
                     width={500}
                     height={500}
                     className="rounded-lg"

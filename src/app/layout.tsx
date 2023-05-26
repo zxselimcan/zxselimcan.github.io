@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className={inter.className + " bg-gray-950"}>
         <div
           style={{
-            backgroundImage: `url('/images/background.png')`,
+            backgroundImage: `url('/images/background.webp')`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
