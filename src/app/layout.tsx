@@ -1,0 +1,35 @@
+import './globals.scss'
+import { Inter } from 'next/font/google'
+
+const inter = Inter({ subsets: ['latin', "latin-ext"] })
+
+export const metadata = {
+  title: 'Selim Can Özdemir',
+  description: "Unleashing audacious innovation in software development, I'm the strategic maverick who codes at the intersection of daring, strategy, and inventiveness.",
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en" className='dark'>
+      <body className={inter.className + " bg-gray-950"}>
+        <div
+          style={{
+            backgroundImage: `url('/images/background.png')`,
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed',
+            backgroundBlendMode: 'overlay',
+            backgroundColor: '#102020',
+          }}
+          className="text-gray-300">
+          {children}
+        </div>
+      </body>
+    </html>
+  )
+}
