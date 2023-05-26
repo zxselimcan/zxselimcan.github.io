@@ -15,9 +15,10 @@ const MenuItem = (
             className={
                 hideOnDesktop
                     ? "flex gap-2 md:hidden"
-                    : "text-gray-400 hover:text-rose-600 ease-in duration-200 flex flex-row gap-2 items-center"
+                    : "text-neutral-100 hover:text-rose-600 ease-in duration-200 flex flex-row gap-2 items-center"
             }
             onClick={onClick}
+            title={text}
         >
             <Icon strokeWidth={"1.5"} />
             <span>{text}</span>

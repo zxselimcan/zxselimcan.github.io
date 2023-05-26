@@ -25,6 +25,7 @@ const Navbar = () => {
                 <div className="md:hidden absolute right-10 top-10 ">
                     <button
                         onClick={toggleMenu}
+                        title="Menu"
                     >
                         <Menu strokeWidth={"1.5"} />
                     </button>

@@ -26,7 +26,7 @@ export default function RootLayout({
             backgroundBlendMode: 'overlay',
             backgroundColor: '#102020',
           }}
-          className="text-gray-300">
+          className="text-neutral-100">
           {children}
         </div>
       </body>
