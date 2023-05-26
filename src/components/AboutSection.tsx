@@ -4,9 +4,9 @@ import Image from "next/image"
 
 const AboutSection = () => {
     return (
-        <div id="about" className="w-full min-h-screen bg-gray-950 bg-opacity-90 text-gray-300 p-10 md:p-24  flex flex-wrap flex-col md:flex-row  items-center justify-between items-center h-full">
+        <div id="about" className="w-full min-h-screen bg-gray-950 bg-opacity-90 text-gray-300 p-10 md:p-24 flex flex-wrap flex-col md:flex-row  items-center justify-between items-center h-full">
 
-            <div className="w-full md:w-[50%] ">
+            <div className="w-full md:w-[50%]">
                 <h3 className="text-4xl md:text-4xl font-bold text-gray-300">About Me</h3>
                 <p className="text-gray-400 mt-10" >
                     Experienced, friendly, positive, and highly motivated individual with a passion for working on exciting projects. I am a software developer with over 5 years of hands-on experience in various fields, including front-end and back-end development. Additionally, I have gained extensive knowledge in areas such as web3, Linux servers, web application security, and smart contract security.
@@ -16,7 +16,7 @@ const AboutSection = () => {
                 </p>
             </div>
             <div
-                className="w-full md:w-[50%] flex flex-col justify-center items-center gap-10"
+                className="w-full md:w-[50%] flex flex-row justify-end items-center mt-10 md:mt-0"
             >
                 <Image
                     alt="Selim Can Özdemir"
